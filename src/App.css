@@ -1,0 +1,206 @@
+.App-header {
+  background-image: url(https://s.alicdn.com/@img/imgextra/i2/O1CN01ouEKQC1iv8mRiHXTL_!!6000000004474-2-tps-3840-440.png);
+  min-height: 30vh;
+ box-sizing: border-box;
+ background-position: center;
+ background-size: cover;
+}
+.home-col-right {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-align: center;
+    flex-direction: row;
+    height: 100%;
+    margin-top: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;    
+}
+.col-right{
+  padding: 3px;
+}
+.video-play-text{
+  position: absolute;
+  z-index: 9;
+  margin: 30px;
+  margin-top: -181px;
+  height: 19px;
+  padding: 0 18px;
+  background: rgba(0,0,0,.4);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #fff;
+}
+.pic1{
+  background-image: url(https://img.alicdn.com/tfs/TB1J5jev7voK1RjSZPfXXXPKFXa-300-320.png);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.icbu-certificate-icon.icbu-certificate-icon-verified {
+  background: url(https://img.alicdn.com/tfs/TB1d7y4p4jaK1RjSZKzXXXVwXXa-42-10.svg) 0 0 no-repeat;
+  background-size: 42px;
+  background-position-y: center;
+  width: 42px;
+}
+.icbu-certificate-icon {
+  display: inline-block;
+  height: 25px;
+  vertical-align: top;
+  margin-right: 9px;
+}
+.pic2{
+  background-image: url(https://img.alicdn.com/tfs/TB1ZXXNIgHqK1RjSZFkXXX.WFXa-300-320.jpg);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.pic3{
+  background-image: url(https://img.alicdn.com/tfs/TB1uW2kv3HqK1RjSZFkXXX.WFXa-300-320.png);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.pic4{
+  background-image: url(https://img.alicdn.com/tfs/TB1RrnvyuT2gK0jSZFvXXXnFXXa-800-375.png);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit);
+}
+.img-w{
+  position: relative;
+  overflow: hidden;
+}
+.img-w > img{
+  width: 100%;
+  height: 60%;
+  background-position: center;
+  background-size: cover;
+}
+.img-w > .content{
+  position: absolute;
+  inset: 0;
+font-size: 1rem;
+}
+.img-w:hover > img.blur{
+filter: blur(9px);
+}
+.img-w > .content.fade{
+  opacity: 0;
+}
+.img-w:hover > .content.fade{
+  opacity: 1;
+}
+.blur1{
+  margin: 20px;
+  background-image: url(//s.alicdn.com/@img/tfs/TB17KqGN7zoK1RjSZFlXXai4VXa-1180-360.png);
+  padding: 43px;
+width: 650px;
+height: 180px;
+background-position: center;
+background-size: cover;
+}
+.pic5{
+  height: 70px;
+  background-color: #fff;
+}
+.pic6{
+  padding-right: 18px;
+    height: 70px;
+    float: right;
+}
+.ta{
+    background-image: url(https://s.alicdn.com/@img/tfs/TB1gBp7SSzqK1RjSZPcXXbTepXa-40-40.png?webp=close);
+}
+.ta1{
+background-image: url(https://s.alicdn.com/@img/tfs/TB1mhSNafc3T1VjSZPfXXcWHXXa-40-32.png?webp=close);
+}
+.ta2{
+  width: 75%;
+  height: 70vw;
+  background-image: url(./images/ta5.png);
+}
+.ta3{
+  background-image: url(https://s.alicdn.com/@img/tfs/TB196hmTbPpK1RjSZFFXXa5PpXa-40-40.png?webp=close);
+}
+.pic5 .pic6> i{
+  width: 37px;
+    height: 40px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.text1{
+  overflow: hidden;
+  margin-left: 22px;
+  height: 70px;
+}
+
+.pic7{
+  height: 70px;
+  background-color: #fff;
+}
+.pic8{
+  padding-right: 18px;
+    height: 70px;
+    float: right;
+}
+
+.ta2{
+  background-image: url(./images/ta5.png);
+}
+.pic7 .pic8> i{
+  width: 65px;
+    height: 51px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.text2{
+  overflow: hidden;
+  margin-left: 22px;
+  height: 70px;
+}
+.imo{
+  width: 99%;
+  cursor: pointer;
+}
+.imo1{
+  font-size: 12px;
+  color: #999;
+  margin: 5px 0 0 0;
+}
+.t1{
+height: 30px;
+}
+.t2{
+  height: 30px;
+  margin: 5px;
+  }
+  .t3{
+    height: 29px;
+    }
+    .t4{
+height: 28px;
+    }
+    .t5{
+      height: 100%;
+      margin-left: 30px;
+      vertical-align: middle;
+
+      width: 24px;
+    }
+    .t6{
+      font-size: 14px;
+    line-height: 24px;
+    vertical-align: middle;
+    }
