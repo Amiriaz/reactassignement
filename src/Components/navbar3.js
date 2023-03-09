@@ -9,7 +9,7 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 function AlignmentExample() {
   return (
     <>
-      <Nav className="sa justify-content-center bg-light">
+      <Nav className="sa justify-content-center bg-light m-2">
         <Nav.Item>
           <Nav.Link ><HomeIcon/><p className='n1 '>Home</p> </Nav.Link>
         </Nav.Item>
