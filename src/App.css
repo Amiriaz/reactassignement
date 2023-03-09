@@ -1,9 +1,8 @@
-.App-header {
-  background-image: url(https://s.alicdn.com/@img/imgextra/i2/O1CN01ouEKQC1iv8mRiHXTL_!!6000000004474-2-tps-3840-440.png);
-  min-height: 30vh;
- box-sizing: border-box;
- background-position: center;
- background-size: cover;
+.a{
+  text-decoration: none;
+}
+.a:hover{
+  text-decoration: underline;
 }
 .home-col-right {
     -webkit-box-orient: horizontal;
@@ -22,16 +21,13 @@
 }
 .video-play-text{
   position: absolute;
-  z-index: 9;
-  margin: 30px;
-  margin-top: -181px;
-  height: 19px;
-  padding: 0 18px;
+  left: 126px;
+  height: 16px;
+  padding: 0 10px;
   background: rgba(0,0,0,.4);
   border-radius: 2px;
   display: flex;
   align-items: center;
-  font-size: 12px;
   color: #fff;
 }
 .pic1{
@@ -171,27 +167,26 @@ background-image: url(https://s.alicdn.com/@img/tfs/TB1mhSNafc3T1VjSZPfXXcWHXXa-
   height: 70px;
 }
 .imo{
-  width: 99%;
+  width: 100%;
   cursor: pointer;
 }
 .imo1{
-  font-size: 12px;
+  font-size: 15px;
   color: #999;
   margin: 5px 0 0 0;
 }
 .t1{
-height: 30px;
+height: 28px;
 }
 .t2{
-  height: 30px;
+  height: 20px;
   margin: 5px;
   }
   .t3{
-    height: 29px;
-    }
-    .t4{
-height: 28px;
-    }
+    height: 32px;
+    width: 32px;
+  }
+   
     .t5{
       height: 100%;
       margin-left: 30px;
@@ -204,3 +199,38 @@ height: 28px;
     line-height: 24px;
     vertical-align: middle;
     }
+    .t7{
+      text-align: start;
+      width: 520px;
+      height: 520px;
+    }
+.sa{
+  right: 0;
+  left: 0;
+  bottom: 0;
+ position: fixed;
+  box-sizing: border-box !important;
+  display: block;
+  direction: ltr !important;
+}
+.n1{
+  font-size: 11px;
+  color: black;
+}
+.n1:hover{
+color: coral;
+}
+.as{
+  position: relative;
+  text-align: right;
+  background-color: #999;
+}
+.as:hover{
+  text-align: center;
+
+}
+.ass{
+  position: absolute;
+  text-align: left;
+  top: 0;
+}
